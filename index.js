@@ -12,7 +12,7 @@ app.get(`/`, (req, res)=>{
 })
 
 app.get(`*`, (req,res)=>{
-    res.status(404).send(`<h1>Wow, lots of nothing</h1><a href="https://i.redd.it/3lsp5tedugt41.jpg"; alt="error 404 you wouldn't understand image">`)
+    res.render(`error404`)
 })
 
 app.listen(process.env.PORT)
