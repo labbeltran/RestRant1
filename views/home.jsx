@@ -5,7 +5,10 @@ function Home() {
     return (
       <Def>
         <main>
-          <h1>Welcome to the Home Page!</h1>
+          <h1>Welcome to the Home Page?!</h1>
+          <div>
+            <img src="/Images/tacos.jpg" alt="Tacos"/>
+          </div>
           <a href="/places">
             <button className="btn-primary">Places Page</button>
           </a>
