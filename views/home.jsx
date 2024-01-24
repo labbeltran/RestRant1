@@ -6,6 +6,10 @@ function Home() {
       <Def>
         <main>
           <h1>Welcome to the Home Page!</h1>
+          <a href="/places">
+            <button className="btn-primary">Places Page</button>
+          </a>
+
           <p>This is the main page of the site.</p>
         </main>
       </Def>
@@ -13,4 +17,4 @@ function Home() {
   }
   
 
-module.exports = home
+module.exports = Home
