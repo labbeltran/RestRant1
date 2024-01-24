@@ -6,7 +6,13 @@ function index (data){
         return(
             <div>
                 <h2>{place.name}</h2>
-                <img src={place.pic} alt= {place.name}/>
+                <img className="restImg" src={place.pic} alt= {place.name}/>
+                <div>
+                    Photo by <a href="{place.cred}">{place.credName}</a> on <a href="{place.photoLink}">Unsplash</a>
+                </div>
+                <p className= "text-center">
+                    Located in {place.city}, {place.state}
+                </p>
             </div>
         )
     })
@@ -14,7 +20,9 @@ function index (data){
             <Def>
                 <main>
                     <h1>Places Index Page</h1>
+                        <div className = "row">
                          {placesFormatted}
+                        </div>
                 </main>
             </Def>
         )

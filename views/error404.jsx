@@ -6,7 +6,7 @@ function Error404() {
       <Def>
         <main>
           <h1>404: Page Not Found</h1>
-          <p>WoW! Lots of Nothing Here...</p>
+          <a href="/Images/404.webp" alt="Joker: You wouldn't understand"></a>
         </main>
       </Def>
     );
