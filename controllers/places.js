@@ -34,7 +34,7 @@ router.get(`/`, (req, res)=>{
 })
 
 router.get('/new', (req, res) => {
-  res.render('views/new')
+  res.render('new')
 })
 
 router.post('/', (req, res) => {
