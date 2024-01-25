@@ -28,10 +28,19 @@ router.get(`/`, (req, res)=>{
         cred:`Rob Mihelic`,
         credName:`https://www.google.com/search?q=mezcalito+durham&oq=mezcalito+durham&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyFggBEC4YgwEYrwEYxwEYsQMYgAQYjgUyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgATSAQg3MTIyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lpg=cid:CgIgAQ%3D%3D,ik:CAoSLEFGMVFpcE56c3h5UTBIMDRCZHBoMjJ0TnFDeWlvdnBWNWlNbVNBUnE0Y2NC`,
         photoLink:`https://lh3.googleusercontent.com/p/AF1QipNzsxyQ0H04Bdph22tNqCyiovpV5iMmSARq4ccB=s680-w680-h510`,
-        
+
       }]
     res.render(`places/index`, {places})
 })
+
+router.get('/new', (req, res) => {
+  res.render('views/new')
+})
+
+router.post('/', (req, res) => {
+  res.send('POST /places stub')
+})
+
 
 module.exports = router
 

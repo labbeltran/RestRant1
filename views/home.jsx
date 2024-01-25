@@ -10,7 +10,7 @@ function Home() {
             <img src="/Images/tacos.jpg" alt="Tacos" class="tacos"/>
           </div>
           <a href="/places">
-            <button className="btn-primary">Places Page</button>
+            <button className="btn-primary" type="submit">Places Page</button>
           </a>
 
           <p>This is the main page of the site.</p>
