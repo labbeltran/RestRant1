@@ -7,7 +7,7 @@ function Home() {
         <main>
           <h1>Welcome to the Home Page?!</h1>
           <div>
-            <img src="/Images/tacos.jpg" alt="Tacos" class="tacos"/>
+            <img src="/Images/tacos.jpg" alt="Tacos" className="tacos"/>
           </div>
           <a href="/places">
             <button className="btn-primary" type="submit">Places Page</button>
