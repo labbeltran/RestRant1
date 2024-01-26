@@ -26,7 +26,8 @@ nav a:hover {
 
 h1 {
     text-align: center;
-    color: cornflowerblue;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
 #home-body{
@@ -81,4 +82,15 @@ body{
 main{
   margin: 0px 20px 0px 20px;
   background-color: antiquewhite;
+}
+
+.btn-primary{
+  border-radius: 20%;
+  background-color: crimson;
+  font: white;
+}
+
+.btn-primary:hover {
+  color: gold;
+  text-decoration: none;
 }
