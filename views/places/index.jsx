@@ -7,7 +7,7 @@ function index (data){
             <div key={index} className="col-sm-6">
                 <h2>{place.name}</h2>
                 <img className="restImg" src={place.pic} alt= {place.name}/>
-                <div>
+                <div className="credit">
                     Photo by <a href="{place.cred}">{place.credName}</a> on <a href="{place.photoLink}">Unsplash</a>
                 </div>
                 <p className= "text-center">

@@ -1,14 +1,58 @@
+nav {
+  background-color: crimson;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li{
+  display: inline;
+  margin-right: 25px;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5em;
+}
+
+nav a:hover {
+  color: gold;
+  text-decoration: none;
+}
+
 h1 {
     text-align: center;
     color: cornflowerblue;
   }
+
+#tacos-div{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
   
+#tacos{
+  width: 400px;
+  height: 400px;
+  align-content: center;
+}
+
 .tacos{
   width: 400px;
   height: 400px;
+  align-content: center;
 }
+
 
 .restImg{
   width: 200px;
   height: 200px;
+}
+
+.credit{
+  font-size: 5px;
 }
