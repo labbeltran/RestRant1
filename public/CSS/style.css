@@ -16,6 +16,7 @@ nav li{
 nav a {
   color: white;
   font-size: 1.5em;
+  font-family: cursive serif; 
 }
 
 nav a:hover {
@@ -28,11 +29,25 @@ h1 {
     color: cornflowerblue;
   }
 
+#home-body{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: 1em 2em 1em 2em;
+  padding: 1.5em;
+  border-style: groove;
+}
+
+p{
+
+}
 #tacos-div{
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  text-align: center;
 }
   
 #tacos{
@@ -45,6 +60,7 @@ h1 {
   width: 400px;
   height: 400px;
   align-content: center;
+  border-radius: 25%;
 }
 
 
@@ -55,4 +71,14 @@ h1 {
 
 .credit{
   font-size: 5px;
+}
+
+body{
+  background-color: beige;
+  text-align: center;
+}
+
+main{
+  margin: 0px 20px 0px 20px;
+  background-color: antiquewhite;
 }
