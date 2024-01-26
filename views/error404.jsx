@@ -5,8 +5,10 @@ function Error404() {
     return (
       <Def>
         <main>
-          <h1>404: Page Not Found</h1>
-          <a title="error404-img" className="error404-img" href="/Images/404.webp" alt="Joker: You wouldn't understand"></a>
+          <h1>404: Lots of Nothing</h1>
+          <div id="Error404-div">
+            <img src="/Images/404.webp" alt="404 Error" id="Error404" className="Error404"/>
+          </div>
         </main>
       </Def>
     );

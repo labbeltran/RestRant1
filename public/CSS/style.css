@@ -40,9 +40,6 @@ h1 {
   border-style: groove;
 }
 
-p{
-
-}
 #tacos-div{
   display: flex;
   flex-wrap: wrap;
