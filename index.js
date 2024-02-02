@@ -1,5 +1,6 @@
 // Modules and Globals
 require('dotenv').config()
+const mongoose = require(`mongoose`)
 const express = require('express')
 const methodOverride = require(`method-override`)
 const app = express()
@@ -26,3 +27,6 @@ app.get('*', (req, res) => {
 
 // Listen for Connections
 app.listen(process.env.PORT)
+mongoose.connect(process.env.MONGO_URI)
+
+module.exports.Place = require(`./places`)
