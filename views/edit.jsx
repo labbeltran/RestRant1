@@ -6,8 +6,8 @@ function edit_form (data) {
       <Default>
         <h1>Add a New Place</h1>
             <main>
-            <form method="POST" action="{/places/${data.place.id}?_method=PUT
-        }">
+            <form method="POST" action={`/places/${data.place.id}?_method=PUT`}>
+        
             <div className="form-group col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="name">Place Name:</label>
                 <input className="form-control" id="name" name="name" value={data.place.name} required />
